@@ -2,6 +2,16 @@
   display:none;
 }
 
+#hidden1 {
+  display: none;
+}
+
+#hidden2 {
+  display: none;
+}
+#hidden3 {
+  display: none;
+}
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -9,4 +19,10 @@
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+.img1, .img2, .img3 {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #0088cc;
 }
